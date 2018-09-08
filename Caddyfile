@@ -1,0 +1,13 @@
+:80 {
+  filemanager / /srv {
+      database            /filemanager.db
+      no_auth
+      locale              zh-cn
+      allow_commands      false
+      allow_edit          false
+      allow_new           false
+      allow_publish       false
+      allow_commands      false
+      }
+
+}
